@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='usc.edu'>USC</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student at University of Southern California, Dept. of Astronautical Engineering.
 
 profile:
   align: right
