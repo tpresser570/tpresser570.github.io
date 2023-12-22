@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='usc.edu'>USC</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -10,10 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: 
 
+social: true  # includes social icons at the top of the page
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
 ---
 
 **Research:** The goal of my work is to develop tools that allow space mission designers working in multibody dynamics to design feasible intial trajecotries in real time. Right now, I am focused on using generative neural networks, specifically diffusion models, to hot-start traditional trajectory optimization tools. My research advisor is [Dr. Dan Erwin](https://viterbi.usc.edu/directory/faculty/Erwin/Daniel), and our reaserch is graciously funded through a fellowship from [Advanced Space LLC](https://advancedspace.com/). I also currently work part-time as an Assocuiate Astrodynamics and Machine Learning Engineer at Advanced Space. 
