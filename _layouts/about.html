@@ -9,6 +9,18 @@ layout: default
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
+
+          <!-- Social -->
+          {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+              
+            </div>
+          {%- endif %}
+
+
         </header>
 
         <article>
@@ -29,16 +41,6 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-              
-            </div>
-          {%- endif %}
 
             {%- if page.profile.more_info %}
             <div class="more-info">
