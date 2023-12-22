@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student at USC, Dept. of Astronautical Engineering.
+subtitle: *PhD* Student at USC, Dept. of Astronautical Engineering. 
 
 profile:
   align: right
