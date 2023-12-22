@@ -29,6 +29,17 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
+
+          <!-- Social -->
+          {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+              
+            </div>
+          {%- endif %}
+
             {%- if page.profile.more_info %}
             <div class="more-info">
               {{ page.profile.more_info }}
@@ -40,20 +51,6 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
           
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
