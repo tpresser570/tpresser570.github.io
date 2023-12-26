@@ -4,7 +4,7 @@ layout: default
 
 <!-- about.html -->
 <div class = "container mt-5">
-      <div class="post">
+  <div class="post">
 
         <article>
           {% if page.profile -%}
@@ -31,17 +31,15 @@ layout: default
             <div class="col-sm-9">
               <h1 class ="post-title"> Tyler A. Presser </h1>
               <p class="desc">{{ page.subtitle }}</p>
-              <div class="social">
-                <div class="contact-icons">
-                  {% include social.html %}
+                <div class="social">
+                  <div class="contact-icons">
+                    {% include social.html %}
+                  </div>
                 </div>
-              </div>
             </div>
           </div>
           {%- endif %}
           
-
-
           <div class="clearfix">
             {{ content }}
           </div>
