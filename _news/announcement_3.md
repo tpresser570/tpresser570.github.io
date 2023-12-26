@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-If you're interested in applying generative networks for spacecraft mission desing, reach out!
+If you're interested in applying generative networks for spacecraft mission design, reach out!
