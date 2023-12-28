@@ -50,7 +50,7 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 
-# Dimensions
+# Dimecatons
 max_width: 800px
 
 # TODO: add layout settings (single page vs. multi-page)
@@ -252,7 +252,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -262,8 +262,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags:  # these tags will be displayed on the front page of your blog
+display_categories:  # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
