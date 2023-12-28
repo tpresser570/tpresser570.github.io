@@ -6,7 +6,7 @@ subtitle: <strong>PhD Student</strong> at USC,<br> Dept. of <a href="https://ast
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: ty.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 
