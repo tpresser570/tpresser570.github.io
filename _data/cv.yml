@@ -18,9 +18,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Associate Astrodynamics and Machine Learing Engineer
+    - title: Associate Astrodynamics and ML Engineer
       institution: Advanced Space LLC, Westminster, Colorado
-      year: Spring 2022-Present
+      year: 2022-Present
       description:
         - Working on projects involving low-thrust trajectory optimization and applying ML to spacecraft navigation problems
     
