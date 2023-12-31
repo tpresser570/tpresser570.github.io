@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>PhD Student</strong> at USC,<br> Dept. of <a href="https://astronautics.usc.edu/"> Astronautical Engineering</a>. <br> <br> Associate Astrodynamics and Machine Learning Engineer,<br> <a href="https://advancedspace.com/">Advanced Space</a>.
+subtitle: <strong>PhD Student</strong> at USC,<br> Dept. of <a href="https://astronautics.usc.edu/"> Astronautical Engineering</a>.<br> Associate Astrodynamics and Machine Learning Engineer,<br> <a href="https://advancedspace.com/">Advanced Space</a>.
 
 profile:
   align: left
